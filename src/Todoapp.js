@@ -15,7 +15,7 @@ const TodoApp = ()=>
     }
     
     const Handlesubmit = ()=>{
-        if(todotext===''|| todotext==" ")
+        if(todotext===''|| todotext===" ")
         {
             alert("Please Enter something in the Text field \nEmpty Todo can't be added")
         }
@@ -37,7 +37,7 @@ const TodoApp = ()=>
                 <input type="text" placeholder="Enter Todo here..." className="input-group"  onChange={Handlechange}/>
                 <button  className=' btn mt mt-3 border btn-info btn-lg ' onClick={Handlesubmit}>Add</button>
                 <br/>
-    <label className="font-weight-bold font-size-13 mt-2">checked Todo = {store.filter(item=> item.checked == !true).length} 
+    <label className="font-weight-bold font-size-13 mt-2">checked Todo = {store.filter(item=> item.checked === !true).length} 
                 <br/> unchecked Todo = {store.filter(item=> item.checked !== false).length}   
                 <br/>Total Todo= {store.length}</label>
                 

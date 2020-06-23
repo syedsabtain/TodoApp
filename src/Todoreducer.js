@@ -25,6 +25,8 @@ const Todoreducer = (state,action)=>
                         }
                     })
             )
+            default:
+                return state
     }
 }
 
