@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.height-15
+{
+  height: 70px;;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.specfic
+{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+@media screen and (max-width: 480px) {
+  .specfic {
+    width:90%; margin-left: auto;
+    margin-right: auto;
   }
+ 
+}
+@media screen and (max-width: 786px) {
+  .specfic {
+    width:70%; margin-left: auto;
+    margin-right: auto;
+  }
+ 
+}
+@media screen and (min-width: 1020px) {
+  .specfic {
+    width:50%; margin-left: auto;
+    margin-right: auto;
+  }
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.font-size{
+  font-size: 49px;
+}
+.red{
+  color:red;
+}
+.green
+{
+  color: green;
+}
+.font-size-14
+{
+  font-size: 20px;
+}
+.font-size-13{
+  font-size: 18px;
+  color: burlywood;
+  /* text-shadow: 2px 2px black; */
+}
+
+button.hoverin:hover
+{
+  /* display: block; */
+  background-color: red;
   color: white;
+  font-size: 18px;
+  font-weight: bold;
+
 }
 
-.App-link {
-  color: #61dafb;
+body
+{
+  background-image: url('bootstrap/backimg.jpg');
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.newcolor
+{
+  color: rgb(227, 137, 83);
+ 
+}
+.hoverr:hover
+{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(227, 137, 83);
+  
+}
+
+.bgcolor
+{
+  color: rgb(227, 137, 83);
+}
+.txtshadow
+{
+  text-shadow: 4px 4px rgb(227, 137, 83);
+  color: white
 }
